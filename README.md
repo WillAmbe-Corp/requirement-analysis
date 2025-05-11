@@ -79,3 +79,48 @@ Clear requirements mean that everyone—developers, designers, testers, and clie
 > In summary, Requirement Analysis is like the foundation of a building. A strong foundation leads to a strong product.
 
 ---
+
+## 🛠️ Key Activities in Requirement Analysis
+
+Requirement Analysis is not a single step—it involves several important activities that help teams understand what the software should do.
+
+Here are the **five key activities** involved:
+
+### • 📥 Requirement Gathering  
+Collecting raw information from users, stakeholders, or clients about what they expect from the system.
+
+- This step is like asking, “What do you need?”
+- It may involve interviews, surveys, observations, or reviewing existing systems.
+
+
+### • 🎙️ Requirement Elicitation  
+Digging deeper to uncover the real needs behind what users say.
+
+- Sometimes, people don’t know exactly what they want or need.
+- This activity involves asking detailed questions, analyzing workflows, and identifying hidden needs.
+
+
+### • 📝 Requirement Documentation  
+Writing down all the collected requirements clearly and accurately.
+
+- This creates a shared reference for both technical and non-technical team members.
+- Common formats: Software Requirement Specification (SRS) documents, user stories, or requirement tables.
+
+
+### • 📊 Requirement Analysis and Modeling  
+Organizing and analyzing the requirements to understand their meaning and relationships.
+
+- Helps remove duplicates, spot conflicts, and prioritize features.
+- Diagrams like flowcharts, use-case diagrams, or wireframes can help visualize the system.
+
+
+### • ✅ Requirement Validation  
+Checking that the documented requirements are complete, correct, and agreed upon by all stakeholders.
+
+- Ensures that nothing important is missed.
+- May involve walkthroughs, reviews, and feedback sessions.
+
+
+> These activities work together to ensure the software meets real user needs and is built correctly fr
+
+---
