@@ -161,3 +161,69 @@ Here are examples for the booking app:
 > Understanding both types of requirements ensures the software not only works correctly but also delivers a smooth and dependable experience for everyone involved.
 
 ---
+## 🧩 Use Case Diagrams
+
+A **Use Case Diagram** is a simple visual tool used in software development to show how different users (called **actors**) interact with the system. These diagrams help teams understand the features of a system and who will use them. It’s especially helpful during the early stages of planning.
+
+### ✅ Benefits of Use Case Diagrams
+
+- **Clarifies system behavior:** Helps everyone understand how the system should work.
+- **Improves communication:** Developers, designers, and non-technical stakeholders can easily follow.
+- **Identifies user roles:** Shows all types of users and their actions clearly.
+- **Aids planning:** Useful for project planning, testing, and documentation.
+
+### 🧾 Use Case Diagram: Hotel Booking System
+
+Below is a use case diagram for a hotel booking system like Airbnb, Booking.com, or OYO. It shows the different types of users and the key actions they can perform:
+
+![Use Case Diagram for Hotel Booking System](alx-booking-uc.png)
+
+### 👥 Actors:
+
+- **Customer:** Searches and books hotels, makes payments, views booking history.
+- **Hotel Manager:** Manages hotel listings, views booking requests.
+- **Admin (optional):** Manages user roles, reviews reports.
+
+### 🎯 Use Cases:
+
+- Search Hotels  
+- View Hotel Details  
+- Book Hotel  
+- Make Payment  
+- View Bookings  
+- Register/Login  
+- Manage Listings (for hotel managers)  
+- Get Notifications  
+- Contact Support  
+
+> This diagram helps the entire team visualize how the system will be used in real life. It also guides development, testing, and future improvements.
+
+---
+## ✅ Acceptance Criteria
+
+### What is Acceptance Criteria?
+
+Acceptance Criteria are simple rules or conditions that must be met for a task or feature to be considered *done* and *working properly*.  
+They help everyone—developers, testers, clients, or users—understand what exactly is expected from a feature.
+
+Think of them like a checklist that answers the question: **“What should this feature do to be accepted?”**
+
+### Why are Acceptance Criteria Important?
+
+- 🟢 They prevent confusion between developers and clients.
+- 🟢 They help testers know what to test.
+- 🟢 They guide developers in building the right feature.
+- 🟢 They make sure the final product meets user needs.
+
+
+
+### 🛒 Example: Acceptance Criteria for "Checkout" in Hotel Booking System
+
+Here are the rules that must be true before the **Checkout feature** is considered complete:
+
+| #  | Criteria                                                                 |
+|----|--------------------------------------------------------------------------|
+| ✅ | User can review hotel details and price before confirming the booking.   |
+| ✅ | User can safely enter payment details during checkout.                   |
+| ✅ | Booking is confirme
+---
