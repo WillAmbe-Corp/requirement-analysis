@@ -124,3 +124,40 @@ Checking that the documented requirements are complete, correct, and agreed upon
 > These activities work together to ensure the software meets real user needs and is built correctly fr
 
 ---
+## 📋 Types of Requirements
+
+Based on the provided website the system's requirements are seperated as **Functional Requirements** and **Non-functional Requirements**. These help the team build a reliable and user-friendly application.
+
+
+### ✅ Functional Requirements
+
+These are the features and actions the system should perform. In simple terms, they describe **what the system does**.
+
+Here are examples from the booking platform:
+
+- **Hotel Listing Management:** Hotel managers must be able to add, edit, or remove their hotel listings.
+- **Search Functionality:** Users should be able to search for hotels based on location, availability, and price range.
+- **Booking:** Users should be able to book a hotel and receive booking confirmation.
+- **Payment Integration:** The system must support secure payment through third-party services.
+- **User Profiles:** Both customers and hotel managers should have their own user accounts and dashboards.
+- **View Bookings:** Users should be able to view current and past bookings.
+
+
+### ⚙️ Non-functional Requirements
+
+These describe **how** the system performs, rather than what it does. They focus on performance, reliability, and usability.
+
+Here are examples for the booking app:
+
+- **Scalability:** The system must handle thousands of users simultaneously without crashing.
+- **Performance:** Hotel search results should appear in under 2 seconds using Elasticsearch.
+- **Availability:** The platform should have 99.9% uptime, especially during high traffic periods.
+- **Data Consistency:** Real-time syncing of booking data across services using Kafka messaging.
+- **Security:** All user data and payments should be encrypted and protected from unauthorized access.
+- **Maintainability:** The system should follow a microservices architecture to allow easy updates and fixes.
+- **Caching:** Redis should be used to cache recent data to reduce database load and speed up response time.
+
+
+> Understanding both types of requirements ensures the software not only works correctly but also delivers a smooth and dependable experience for everyone involved.
+
+---
